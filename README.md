@@ -1,4 +1,4 @@
-# AI--Powered-cybersecurity-threat-detection-system
+# AI-Powered-cybersecurity-threat-detection-system
 Got it! I can help you **rewrite your README** so it matches your **SOC Analyst-focused AI Cybersecurity Threat Detection project**. Here’s a polished version tailored for your project:
 
 ---

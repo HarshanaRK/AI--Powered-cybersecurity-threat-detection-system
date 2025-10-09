@@ -1,13 +1,6 @@
-# AI-Powered-cybersecurity-threat-detection-system
-Got it! I can help you **rewrite your README** so it matches your **SOC Analyst-focused AI Cybersecurity Threat Detection project**. Here’s a polished version tailored for your project:
-
----
-
 # AI-Powered Cybersecurity Threat Detection System
 
 This project implements an AI-powered system to detect cybersecurity threats across multiple domains, including **network anomalies, malware, and phishing emails**. The system leverages machine learning models to identify potential threats in test data and can be easily extended for real-world applications.
-
----
 
 ## Features
 
@@ -17,14 +10,10 @@ This project implements an AI-powered system to detect cybersecurity threats acr
 * **Synthetic Data Generation:** Generates test datasets for training and evaluation.
 * **Model Persistence:** Saves trained models for future use without retraining.
 
----
-
 ## Prerequisites
 
 * **Python:** Version 3.8 or higher (tested with Python 3.12)
 * **Dependencies:** Install using `requirements.txt`
-
----
 
 ## Installation
 
@@ -47,8 +36,6 @@ source venv/bin/activate   # On Windows: venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
-
----
 
 ## Usage
 
@@ -83,8 +70,6 @@ All models saved to ./models
 * Replace synthetic data with real datasets by modifying `detector.detect_*` methods in `main.py`.
 * Load saved models with `detector.load_models()` for predictions without retraining.
 
----
-
 ## File Structure
 
 ```
@@ -100,8 +85,6 @@ All models saved to ./models
 └── README.md              # This file
 ```
 
----
-
 ## How It Works
 
 * **Network Anomaly Detection:** Uses an MLPRegressor autoencoder and Isolation Forest to detect anomalies in features like bytes sent/received, duration, port, protocol, and service.
@@ -109,22 +92,12 @@ All models saved to ./models
 * **Phishing Detection:** TF-IDF vectorization and Random Forest classify emails based on text features.
 * **Synthetic Data:** Generates reproducible training and testing datasets.
 
----
-
 ## Contributing
 
 * Fix bugs, improve detection, or extend the system with additional datasets.
 * Pull requests and issues are welcome.
 
----
-
 ## License
 
 This project is unlicensed. Free to use for educational or personal purposes.
 
----
-
-**GitHub Repository:**
-[https://github.com/HarshanaRK/AI--Powered-cybersecurity-threat-detection-system](https://github.com/HarshanaRK/AI--Powered-cybersecurity-threat-detection-system)
-
----
